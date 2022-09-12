@@ -1,0 +1,59 @@
+{
+  "name": "Daedalus Documentation",
+  "logo": "/logo/logo.png",
+  "favicon": "/logo/favicon.png",
+  "colors": {
+    "primary": "#24BF94",
+    "light": "#9DEAD4",
+    "dark": "#4B54C9",
+    "ultraLight": "#E6F5F1",
+    "ultraDark": "#212665"
+  },
+  "topbarCtaButton": {
+    "url": "https://app.daedalusfi.com",
+    "name": "Start Trading"
+  },
+  "topbarLinks": [
+    {
+      "name": "Learn more",
+      "url": "https://daedalusfi.com"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Careers",
+      "icon": "people-group",
+      "url": "https://careers.daedalusfi.com"
+    },
+    {
+      "name": "Newsletter",
+      "icon": "newspaper",
+      "url": "https://news.daedalusfi.com"
+    }
+  ],
+  "footerSocials": {
+    "instagram": "https://www.instagram.com/daedalus.fi",
+    "twitter": "https://twitter.com/DaedalusHQ"
+  },
+  "navigation": [
+    {
+      "group": "Home",
+      "pages": ["home/introduction", "home/quickstart"]
+    },
+    {
+      "group": "Mobile",
+      "pages": [
+        "mobile/connecting-accounts",
+        "mobile/applying-for-brokerage-account",
+        "mobile/applying-for-access-to-invest",
+        "mobile/creating-orders",
+        "mobile/strategies",
+        "mobile/social"
+      ]
+    },
+    {
+      "group": "Guides",
+      "pages": ["guides/alpaca"]
+    }
+  ]
+}
